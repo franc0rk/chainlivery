@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["https://openseauserdata.com/"], // Allow images from any domain
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
